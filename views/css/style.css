@@ -35,12 +35,8 @@ li a:hover{
     height: 14vh;
 }
 .info{
-    /* background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-    height: 600px; */
     background:center center no-repeat  url(../img/bg.png);
+    background-size: cover;
 }
 .about{
     margin: auto;
@@ -132,4 +128,9 @@ li a:hover{
 }
 .bottom p{
     color: #fff;
+}
+.form h1{
+    color: rgba(249, 249, 249, 0.844);
+    border-bottom:3px solid greenyellow;
+    /* margin: 10px 0; */
 }

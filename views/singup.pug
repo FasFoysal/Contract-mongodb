@@ -2,4 +2,17 @@ extends layout.pug
 block style 
     style
         include css/style.css
+        include css/con-style.css
+        include css/singUp.css
 block content
+    section.info 
+        section.contract
+            div.form
+                h1 You no account then plz sing up & login
+                h1
+                form(action="/contract" method="post" id="content") 
+                    input.input-c(type="text" name="name" id="name" placeholder="Enter you name")
+                    input.input-c(type="email" name="email" id="email" placeholder="Enter you Gmail")
+                    input.input-c(type="password" name="pass" id="pass" placeholder="Enter your password")
+                    button(class="btn")
+                        |Sing Up

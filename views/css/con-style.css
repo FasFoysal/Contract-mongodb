@@ -4,7 +4,7 @@
     padding:0;
     font-weight: bold;
     font-family: 'Acme', sans-serif;
-    color: rgba(7, 93, 7, 0.844);
+    color: #fff;
 }
 #con{
    background-color: greenyellow;;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     height: max-content;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 .form{
     background-color: #0000005c;
@@ -30,7 +30,8 @@
     padding: 8px 8px;
     border-radius: 8px;
     outline:none;
-    border: 6px solid rgb(23, 217, 23);
+    border-bottom: 6px solid rgb(23, 217, 23);
+    background: none;
 }
 .form textarea{
     height: 180px;
@@ -43,8 +44,14 @@
     font-size: 23px;
     outline: none;
     cursor: pointer;
+    background:none;
 }
 .form button:hover{
     border: 6px solid rgb(23, 217, 23);
     transition: .6s;
+}
+.form h1{
+    color: rgba(249, 249, 249, 0.844);
+    border-bottom:3px solid greenyellow;
+    margin: 10px 0;
 }

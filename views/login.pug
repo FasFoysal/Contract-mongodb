@@ -2,10 +2,16 @@ extends layout.pug
 block style 
     style
         include css/style.css
-    //- style 
-    //-     include css/login.css
+        include css/con-style.css
+        include css/login.css
 block content
-    nav.navbar
-        ul  
-            li #[img( src="../img/logo.png" alt="no net" id='logo')]
-            li #[a(href="/") Home]
+    section.info 
+        section.contract
+            div.form
+                h1 Enter you Email & password & login
+                h1
+                form(action="/contract" method="post" id="content") 
+                    input.input-c(type="email" name="email" id="email" placeholder="Enter you Gmail")
+                    input.input-c(type="password" name="pass" id="pass" placeholder="Enter you Password")
+                    button(class="btn")
+                        |Login

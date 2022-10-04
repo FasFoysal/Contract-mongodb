@@ -1,10 +1,1 @@
-name: Foysal Ahamed,  contract app.post('/dog', (req, res) => {
-   fName = req.body.fName;
-   lName = req.body.lName;
-   gmail = req.body.gmail;
-   password = req.body.pass;
-   more = req.body.tArea;
-let userDataInputFile = `---The user First name= ${fName}, last name= ${lName}, gmail= ${gmail}, password= ${password}, about yourself ${more}`;
-fs.writeFileSync('../user.txt',userDataInputFile);
-res.status(200).render('demo', {  "content": cont });
-}
+name: ,  contract undefined
