@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.navbar{
+    background-color: greenyellow;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+}
+li{
+    list-style: none; 
+}
+li a{
+    text-decoration: none;
+    margin-left: 8px;
+    padding: 10px 15px ;
+    background-color: rgb(110, 173, 15);
+    border-radius: 4px;
+    color: rgba(159, 17, 17, 0.831);
+    font-family: 'Acme', sans-serif;
+}
+li a:hover{
+    background-color: greenyellow;
+    transition: .5s;
+    color: rgba(180, 73, 73, 0.831);
+}
+#logo{
+    height: 14vh;
+}
+.info{
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px; */
+    background:center center no-repeat  url(../img/bg.png);
+}
+.about{
+    margin: auto;
+    width: 60%;
+    padding: 80px 0;
+    text-align: left;
+}
+.text{
+    background-color: #000000ba;
+    margin-top: 40px;   
+    padding: 40px 30px;
+    color:#fff;
+}
+.text h1{
+    font-family: 'Acme', sans-serif;
+    line-height: 1.8;
+}
+.text h3{
+    font-family: 'Acme', sans-serif;
+    line-height: 1.8;
+}
+.text p{
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.workout{
+    height: max-content;
+    padding: 80px 0;
+    background-image: linear-gradient(150deg, yellow, green, rgb(221, 89, 221));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 28vw;
+    height: 40vh;
+    border:3px solid rgba(95, 8, 95, 0.758);
+    row-gap: 5px;
+    margin-left: 8px;
+    display: flex;
+    overflow: auto;
+}
+.card img{
+    height: 25vh;
+}
+.card p{
+    padding: 10px;
+    height: inherit;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.sponser{
+    text-align: center;
+}
+.sponser h1{
+    margin: 30px 0;
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.sponser hr{
+    display: block;
+    margin: auto;
+    /* margin: 40px; */
+    width: 300px;
+}
+.img-sponser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding: 80px 0;
+    column-gap: 140px;
+    
+    
+}
+.img-sponser img{   
+    height: 26vh;
+    width: 12vw;
+}
+.bottom{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(41, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom p{
+    color: #fff;
+}

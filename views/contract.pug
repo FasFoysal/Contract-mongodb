@@ -1,0 +1,20 @@
+extends layout.pug
+block style 
+    style
+        include css/con-style.css
+    style
+        include css/style.css
+block content
+    section.contract
+        div.form
+            h1 #{sendMess}
+            h1 #{mes}
+            form(action="/contract" method="post" id="content") 
+                input.input-c(type="text" name="name" id="name" placeholder="Enter you name")
+                input.input-c(type="email" name="email" id="email" placeholder="Enter you Gmail")
+                input.input-c(type="text" name="addr" id="addr" placeholder="Enter your address")
+                textarea.input-c(type="text" name="mess" id="mess" placeholder="Type what is your message...")
+                button(class="btn")
+                    |Submit
+
+

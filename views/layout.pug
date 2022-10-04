@@ -1,0 +1,17 @@
+//- layout.pug
+html
+  head
+    title #{title}
+    block style
+  body
+    nav.navbar
+        ul  
+            li #[img( src="../img/logo.png" alt="no net" id='logo')]
+            li #[a(href="/" id="hom") Home]
+            li #[a(href="/about" id="aus") About us ]
+            li #[a(href="/contract" id="con") Contract]
+            li #[a(href="/sing-up" id="sin") Sing in ]
+            li #[a(href="/login" id="log") login ]
+    block content
+    section.bottom
+      p Copyright © shounfoysal@gmail.com | 2022 

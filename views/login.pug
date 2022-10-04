@@ -1,0 +1,11 @@
+extends layout.pug
+block style 
+    style
+        include css/style.css
+    //- style 
+    //-     include css/login.css
+block content
+    nav.navbar
+        ul  
+            li #[img( src="../img/logo.png" alt="no net" id='logo')]
+            li #[a(href="/") Home]

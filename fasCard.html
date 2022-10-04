@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            width: 25em;
+            height: 12em;
+            background-color: purple;
+            margin: auto;
+        }
+        .text{
+            width: 15em;
+            height: 5em;
+            color: red;
+            background-color: greenyellow;
+            margin: auto;
+            transition: 3.5s;
+        }
+    </style>
+    <input class="box" type="button" >
+
+    <button  onclick="myFunction()">Click me</button>
+
+<div class="appen"></div>
+    <script>
+let cla = document.querySelector('.box');
+console.log(cla)
+cla.addEventListener('click', (MouseEvent)=>{
+    console.log(MouseEvent.clientX )
+console.log(MouseEvent.clientY)
+console.log('What is this, Why you calling me like that'); // What is this, Why you calling me like that
+    console.log(MouseEvent.type); // click
+    console.log(MouseEvent.currentTarget);
+    console.log(MouseEvent.buttons)
+})
+
+let text = document.createElement('h1');
+let app = document.querySelector('.appen');
+text.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam laudantium, labore iusto et iure minima.'
+app.appendChild(text);
+// text.classList.add('text')
+
+
+
+setInterval(function myFunction(){
+    text.classList.toggle('text')
+},2000)
+    </script>
+</body>
+</html>

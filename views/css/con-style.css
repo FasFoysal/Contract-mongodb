@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    color: rgba(7, 93, 7, 0.844);
+}
+#con{
+   background-color: greenyellow;;
+}
+.contract{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    margin: 50px 0;
+}
+.form{
+    background-color: #0000005c;
+    padding: 10vh 8vw;
+    width: 45%;
+    border-radius: 8px;
+}
+.input-c{
+    display: block;
+    width: 100%;
+    margin: 16px auto;
+    font-size: 20px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    outline:none;
+    border: 6px solid rgb(23, 217, 23);
+}
+.form textarea{
+    height: 180px;
+}
+.form button{
+    margin: 12px 0;
+    padding: 7px 19px;
+    border: 6px solid;
+    border-radius: 8px;
+    font-size: 23px;
+    outline: none;
+    cursor: pointer;
+}
+.form button:hover{
+    border: 6px solid rgb(23, 217, 23);
+    transition: .6s;
+}

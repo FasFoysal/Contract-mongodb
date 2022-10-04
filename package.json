@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "pug": "^3.0.2"
+  },
+  "name": "contract_us_gym",
+  "version": "1.0.0",
+  "description": "simple conract and file send",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FAS Foysal",
+  "license": "ISC"
+}
